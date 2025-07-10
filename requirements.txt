@@ -4,5 +4,6 @@ langchain-community
 langchain-pinecone
 langchain-groq
 python-dotenv
+sentence-transformers
 langgraph
 streamlit
