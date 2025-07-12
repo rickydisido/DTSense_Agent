@@ -20,7 +20,7 @@ load_dotenv()
 
 # --- PINECONE SETUP ---
 pc = Pinecone(api_key=os.environ.get("PINECONE_API_KEY"))
-index_name = "dts-data-test"
+index_name = "dts-data-set"
 index = pc.Index(index_name)
 
 @st.cache_resource
